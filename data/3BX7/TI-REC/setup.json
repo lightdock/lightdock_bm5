@@ -1,0 +1,49 @@
+{
+    "anm_seed": 324324, 
+    "ftdock_file": null, 
+    "anm_rec": 10, 
+    "receptor_restraints": {
+        "active": [
+            "A.LEU.36", 
+            "A.PHE.123", 
+            "A.PHE.132", 
+            "A.ALA.81", 
+            "A.TYR.106", 
+            "A.TYR.100", 
+            "A.LEU.94", 
+            "A.MET.49", 
+            "A.HIS.47", 
+            "A.ILE.70", 
+            "A.GLU.127", 
+            "A.LEU.42", 
+            "A.LEU.125", 
+            "A.LYS.74", 
+            "A.LYS.75", 
+            "A.TYR.52", 
+            "A.ILE.41", 
+            "A.ARG.40", 
+            "A.ALA.134", 
+            "A.HIS.73", 
+            "A.GLU.77", 
+            "A.THR.79", 
+            "A.LEU.7", 
+            "A.ILE.80", 
+            "A.PHE.83"
+        ], 
+        "passive": []
+    }, 
+    "swarms": 115, 
+    "starting_points_seed": 324324, 
+    "receptor_pdb": "3BX7_A_noh.pdb", 
+    "anm_lig": 10, 
+    "noxt": true, 
+    "restraints": "restraints.list", 
+    "use_anm": true, 
+    "glowworms": 200, 
+    "membrane": false, 
+    "ligand_pdb": "3BX7_B_noh.pdb", 
+    "ligand_restraints": {
+        "active": [], 
+        "passive": []
+    }
+}

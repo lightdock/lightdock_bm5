@@ -1,0 +1,39 @@
+{
+    "anm_lig": 10, 
+    "anm_rec": 10, 
+    "anm_seed": 324324, 
+    "configuration_file": null, 
+    "cores": 48, 
+    "ftdock_file": null, 
+    "glowworms": 200, 
+    "gso_seed": 324324, 
+    "ligand_pdb": "2A1A_B_noh.pdb", 
+    "ligand_restraints": {
+        "active": [
+            "B.MET.44"
+        ], 
+        "passive": []
+    }, 
+    "local_minimization": false, 
+    "membrane": false, 
+    "mpi": false, 
+    "nmodes_step": 0.5, 
+    "noxt": true, 
+    "profiling": false, 
+    "receptor_pdb": "2A1A_A_noh.pdb", 
+    "receptor_restraints": {
+        "active": [
+            "A.PHE.489"
+        ], 
+        "passive": []
+    }, 
+    "restraints": "restraints.list", 
+    "rotation_step": 0.5, 
+    "scoring_function": "fastdfire", 
+    "setup_file": "setup.json", 
+    "starting_points_seed": 324324, 
+    "steps": 100, 
+    "swarms": 10, 
+    "translation_step": 0.5, 
+    "use_anm": true
+}
