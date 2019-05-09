@@ -2,10 +2,11 @@
 
 ## Description
 
-* results: this folder contains for each complex from the BM5 and for each scenario (BLIND, PAIR, TI, TI-REC, TI-25 and TI-50) a file with extension `.list` where for each structure predicted by the protocol its name, interface-RMSD, ligand-RMSD, fraction of native contacts and the final score.
+* results: this folder contains for each complex from the BM5 and for each scenario (BLIND, PAIR, TI, TI-REC, TI-50, TI-25, TI-50-fake and TI-25-fake) a file with extension `.list` where for each structure predicted by the protocol its name, interface-RMSD, ligand-RMSD, fraction of native contacts and the final score.
 
 * data: for each complex, the initial PDB structures used (`$complex_A-noh.pdb`, `$complex_B-noh.pdb`), the reference (`*.segid.pdb`) and for each scenario `setup.json` and `lightdock.info` files.
 
+* restraints: restraint files used for each of the scenarios above-mentioned named as `$complex-[scenario]-restraints.list`
 
 ## Reproduction of results
 
@@ -20,4 +21,4 @@ For the reported results, the following parameters were used:
 * `fraction_of_input_restraints`: 0.4 (40%)
 
 
-![LightDock-pipeline](LightDock-pipeline-corrected.png)
+![LightDock-pipeline](media/LightDock-pipeline-corrected.png)
