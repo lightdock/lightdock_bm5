@@ -20,4 +20,4 @@ For the reported results, the following parameters were used:
 * `fraction_of_input_restraints`: 0.4 (40%)
 
 
-![LightDock-pipeline](LightDock-pipeline.png)
+![LightDock-pipeline](LightDock-pipeline-corrected.png)
