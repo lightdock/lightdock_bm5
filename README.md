@@ -11,13 +11,13 @@
 
 For the reported results, the following parameters were used:
 
-* [initial_swarms]: 400
-* [number_of_glowworms]: 200
-* [number_of_steps]: 100
-* [scoring_function]: fastdfire
-* [number_of_cores]: 48
-* [distance_in_Å]: 5.0
-* [fraction_of_input_restraints]: 0.4 (40%)
+* `initial_swarms`: 400
+* `number_of_glowworms`: 200
+* `number_of_steps`: 100
+* `scoring_function`: fastdfire
+* `number_of_cores`: 48
+* `distance_in_Å`: 5.0
+* `fraction_of_input_restraints`: 0.4 (40%)
 
 
 ![LightDock-pipeline](media/LightDock-pipeline.png)
