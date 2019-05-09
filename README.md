@@ -6,3 +6,7 @@
 
 * data: for each complex, the initial PDB structures used, the reference (`*.segid.pdb`) and for each scenario `setup.json` and `lightdock.info` files.
 
+
+## Reproduction of results
+
+![LightDock-pipeline](media/LightDock-pipeline.png)
