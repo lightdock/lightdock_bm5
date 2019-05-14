@@ -1,0 +1,55 @@
+{
+    "anm_seed": 324324, 
+    "ftdock_file": null, 
+    "anm_rec": 10, 
+    "receptor_restraints": {
+        "active": [
+            "A.TYR.30", 
+            "A.SER.31", 
+            "A.TYR.32", 
+            "A.TYR.91", 
+            "A.ARG.50", 
+            "A.TYR.49", 
+            "A.ARG.53", 
+            "A.ASN.52", 
+            "A.TYR.602", 
+            "A.GLY.600", 
+            "A.TYR.604", 
+            "A.TYR.533", 
+            "A.GLU.606", 
+            "A.THR.599", 
+            "A.ARG.607", 
+            "A.PRO.609"
+        ], 
+        "passive": []
+    }, 
+    "swarms": 50, 
+    "starting_points_seed": 324324, 
+    "receptor_pdb": "3RVW_A_noh.pdb", 
+    "anm_lig": 10, 
+    "noxt": true, 
+    "restraints": "restraints.list", 
+    "use_anm": true, 
+    "glowworms": 200, 
+    "membrane": false, 
+    "ligand_pdb": "3RVW_B_noh.pdb", 
+    "ligand_restraints": {
+        "active": [
+            "B.GLY.155", 
+            "B.ASP.154", 
+            "B.ARG.156", 
+            "B.THR.157", 
+            "B.ILE.158", 
+            "B.GLN.160", 
+            "B.ALA.180", 
+            "B.ASN.179", 
+            "B.TYR.185", 
+            "B.ASP.184", 
+            "B.ASP.198", 
+            "B.ASN.199", 
+            "B.TYR.203", 
+            "B.GLY.202"
+        ], 
+        "passive": []
+    }
+}
