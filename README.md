@@ -32,6 +32,8 @@ For the reported results, the following parameters were used:
 * `number_of_cores`: 48
 * `distance_in_Å`: 5.0
 * `fraction_of_input_restraints`: 0.4 (40%)
+* `ch_rec`: receptor chain id
+* `ch_lig`: ligand chain id
 
 
 ![LightDock-pipeline](media/LightDock-pipeline-corrected.png)
