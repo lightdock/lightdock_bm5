@@ -31,7 +31,7 @@ for i in $(seq 0 $swarms)
   done
 
 # Generate ranking of predictions
-lgd_rank.py ${swarms} ${STEPS}
+lgd_rank.py ${s} ${STEPS}
 
 # Filter according to 40% of satisfied restraints
 lgd_filter_restraints.py -cutoff 5.0 -fnat 0.4 rank_by_scoring.list restraints.list A B
