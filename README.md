@@ -2,7 +2,7 @@
 
 ## Description
 
-* results: this folder contains for each complex from the BM5 and for each scenario (BLIND, TI, TI-SINGLE, TI-REC, TI-50, TI-25, TI-RANDOM-50 and TI-RANDOM-25) a file with extension `.list` where for each structure predicted by the protocol its name, interface-RMSD, ligand-RMSD, fraction of native contacts and the final score.
+* results: this folder contains for each complex from the BM5 and for each scenario (BLIND, TI, TI-SINGLE, TI-REC, TI-50, TI-25, TI-REC-50, TI-REC-25, TI-RANDOM-50 and TI-RANDOM-25) a file with extension `.list` where for each structure predicted by the protocol its name, interface-RMSD, ligand-RMSD, fraction of native contacts and the final score.
 
 * data: for each complex, the initial PDB structures used (`$complex_A-noh.pdb`, `$complex_B-noh.pdb`), the reference (`*.segid.pdb`) and for each scenario `setup.json` and `lightdock.info` files. A script `run.sh` with all the necessary steps to reproduce is available.
 
@@ -17,6 +17,8 @@
 * **TI-REC**: only residues from the receptor true interface are considered.
 * **TI-50**: true interface is split in two parts and extended with residues which are not in the true interface, but are contiguous to the selected patch and don't belong to the other half of true interface residues.
 * **TI-25**: true interface is split in four parts and extended with residues which are not in the true interface, but are contiguous to the selected patch and don't belong to any of the other original parts.
+* **TI-REC-50**: same as TI-50 but only considering receptor true interface residues.
+* **TI-REC-25**: same as TI-25 but only considering receptor true intterface residues.
 * **TI-RANDOM-50**: 50% of the true interface is randomly selected as restraints. 
 * **TI-RANDOM-25**: 25% of the true interface is randomly selected as restraints.
 
