@@ -14,6 +14,7 @@
 * **BLIND**: *ab initio* docking, no restraints used.
 * **TI**: true interface residues considered.
 * **TI-SINGLE**: only a residue restraints pair is considered, this pair is assured to be interacting.
+* **TI-ONE**: only a residue restraint is considered in the receptor side (same receptor residue than in TI-SINGLE).
 * **TI-REC**: only residues from the receptor true interface are considered.
 * **TI-50**: true interface is split in two parts and extended with residues which are not in the true interface, but are contiguous to the selected patch and don't belong to the other half of true interface residues.
 * **TI-25**: true interface is split in four parts and extended with residues which are not in the true interface, but are contiguous to the selected patch and don't belong to any of the other original parts.
