@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import os
 
 
-figures = ["BLIND", "CDR", "TI"]
+figures = ["TI", "BLIND-filtered", "BLIND"]
 
 
 def read_ranking_file(file_name, with_std=False):
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
     box = plt.figure(1, figsize=(18, 6), dpi=300, facecolor='w', edgecolor='k')
     plt.rcParams.update({'font.size': 12})
-    titles = {'BLIND': r'$BLIND$', 'TI': r'$TI$', 'CDR': r'$CDR$'}
+    titles = {'BLIND': r'$BLIND$', 'TI': r'$TI$', 'BLIND-filtered': r'$BLIND_{filtered}$'}
 
     for i, figure in enumerate(figures):
         
@@ -73,5 +73,5 @@ if __name__ == "__main__":
 
     plt.subplots_adjust(left=0.1, bottom=0.2, right=0.9, top=0.85, wspace=0.4, hspace=0.6)
     plt.figlegend( ['High', 'Medium', 'Acceptable'], loc = 'lower center', ncol=3, labelspacing=0.)
-    plt.savefig('figure.pdf', bbox_inches='tight')
+    plt.savefig('figure_sup_2.pdf', bbox_inches='tight')
         
