@@ -7,7 +7,7 @@ import os
 
 figures = ["BLIND", "TI-REC", "TI", 
            "TI-SINGLE", "TI-REC-50", "TI-50",
-           "TI-RANDOM-25", "TI-REC-25", "TI-25"]
+           "TI-ONE", "TI-REC-25", "TI-25"]
 
 with_std = ["TI-REC-50", "TI-REC-25", "TI-50", "TI-25"]
 
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     titles = {'BLIND': r'$BLIND$', 'TI': r'$TI$',
               'TI-25': r'$TI_{25}$', 'TI-50': r'$TI_{50}$', 
               'TI-SINGLE':r'$TI_{SINGLE}$', 'TI-REC':r'$TI_{REC}$',
-              'TI-RANDOM-25': r'$TI_{RANDOM-25}$', 'TI-REC-50':r'$TI_{REC-50}$', 
+              'TI-ONE': r'$TI_{ONE}$', 'TI-REC-50':r'$TI_{REC-50}$', 
               'TI-REC-25':r'$TI_{REC-25}$'}
 
     for i, figure in enumerate(figures):
