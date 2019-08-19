@@ -100,7 +100,7 @@ if __name__ == "__main__":
         plt.yticks(np.arange(0.0, 110.0, 20.0))
         ax.spines['top'].set_visible(False)
         ax.spines['right'].set_visible(False)
-        ax.yaxis.grid(which='major', color='grey', linestyle='-', linewidth=0.25, alpha=0.5)
+        #ax.yaxis.grid(which='major', color='grey', linestyle='-', linewidth=0.25, alpha=0.5)
 
     plt.subplots_adjust(left=0.1, bottom=0.1, right=0.9, top=0.9, wspace=0.4, hspace=0.6)
     plt.figlegend( ['High', 'Medium', 'Acceptable'], loc = 'lower center', ncol=3, labelspacing=0.)
